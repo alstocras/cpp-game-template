@@ -22,5 +22,7 @@ int main(void) {
              20, RAYWHITE);
 
     EndDrawing();
+
+    return 0;
   }
 }
