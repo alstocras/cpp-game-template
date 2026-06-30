@@ -18,7 +18,8 @@ int main(void) {
     // rendering logic
     ClearBackground(BLACK);
 
-    DrawText("this is a window", 190, 200, 20, RAYWHITE);
+    DrawText("this is a window", GetScreenWidth() / 2, GetScreenHeight() / 2,
+             20, RAYWHITE);
 
     EndDrawing();
   }
